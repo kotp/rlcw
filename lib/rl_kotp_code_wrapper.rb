@@ -1,3 +1,3 @@
-class Rl-kotpCodeWrapper
-  VERSION = '1.0.0'
+class Wrapper
+  VERSION = '0.8.45'
 end
