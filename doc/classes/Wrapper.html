@@ -142,8 +142,7 @@ Forums. It also wraps the copied text with [code ruby] [/code] block.
         <a name="M000001"></a>
 
         <div class="method-heading">
-          <a href="Wrapper.src/M000001.html" target="Code" class="method-signature"
-            onclick="popupCode('Wrapper.src/M000001.html');return false;">
+          <a href="#M000001" class="method-signature">
           <span class="method-name">new</span><span class="method-args">(file_name, clipboard = false, lines = false, outfile = '', begin_wrap = '', end_wrap = '')</span>
           </a>
         </div>
@@ -157,6 +156,19 @@ false, false, &#8216;out_filename.rb&#8217;, &#8217;[code ruby]&#8217;,
 values, except for &#8216;filename.rb&#8217; for input. This is actually
 written to be more for clipboard content at this point.
 </p>
+          <p><a class="source-toggle" href="#"
+            onclick="toggleCode('M000001-source');return false;">[Source]</a></p>
+          <div class="method-source-code" id="M000001-source">
+<pre>
+    <span class="ruby-comment cmt"># File lib/code_wrapper.rb, line 34</span>
+34:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">initialize</span>(<span class="ruby-identifier">file_name</span>, <span class="ruby-identifier">clipboard</span> = <span class="ruby-keyword kw">false</span>, <span class="ruby-identifier">lines</span> = <span class="ruby-keyword kw">false</span>, <span class="ruby-identifier">outfile</span> = <span class="ruby-value str">''</span>,
+35:                                             <span class="ruby-identifier">begin_wrap</span> = <span class="ruby-value str">''</span>, <span class="ruby-identifier">end_wrap</span> = <span class="ruby-value str">''</span>)
+36:     <span class="ruby-ivar">@os</span> = <span class="ruby-identifier">check_operating_system</span>  
+37:     <span class="ruby-comment cmt"># Sets all instance variables in one go with some meta programming.</span>
+38:     <span class="ruby-identifier">set_instance_variables</span>(<span class="ruby-identifier">binding</span>, <span class="ruby-operator">*</span><span class="ruby-identifier">local_variables</span>)
+39:   <span class="ruby-keyword kw">end</span>
+</pre>
+          </div>
         </div>
       </div>
 
@@ -166,13 +178,24 @@ written to be more for clipboard content at this point.
         <a name="M000002"></a>
 
         <div class="method-heading">
-          <a href="Wrapper.src/M000002.html" target="Code" class="method-signature"
-            onclick="popupCode('Wrapper.src/M000002.html');return false;">
+          <a href="#M000002" class="method-signature">
           <span class="method-name">process</span><span class="method-args">()</span>
           </a>
         </div>
       
         <div class="method-description">
+          <p><a class="source-toggle" href="#"
+            onclick="toggleCode('M000002-source');return false;">[Source]</a></p>
+          <div class="method-source-code" id="M000002-source">
+<pre>
+    <span class="ruby-comment cmt"># File lib/code_wrapper.rb, line 41</span>
+41:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">process</span>
+42:     <span class="ruby-ivar">@wrapped_content</span> = <span class="ruby-identifier">wrap</span>
+43:     <span class="ruby-identifier">write_to_file</span>(<span class="ruby-ivar">@outfile</span>) <span class="ruby-keyword kw">unless</span> <span class="ruby-ivar">@outfile</span>.<span class="ruby-identifier">empty?</span>
+44:     <span class="ruby-identifier">paste_to_clipboard</span> <span class="ruby-keyword kw">if</span> <span class="ruby-ivar">@clipboard</span>
+45:   <span class="ruby-keyword kw">end</span>
+</pre>
+          </div>
         </div>
       </div>
 

@@ -59,10 +59,6 @@
                 lib/platform.rb
                 </a>
         <br />
-                <a href="../files/lib/platform_check_rb.html">
-                lib/platform_check.rb
-                </a>
-        <br />
             </td>
         </tr>
 
@@ -85,7 +81,6 @@
 
       <div class="name-list">
       <a href="#M000004">check_operating_system</a>&nbsp;&nbsp;
-      <a href="#M000005">check_operating_system</a>&nbsp;&nbsp;
       </div>
     </div>
 
@@ -111,31 +106,38 @@
         <a name="M000004"></a>
 
         <div class="method-heading">
-          <a href="Platform.src/M000004.html" target="Code" class="method-signature"
-            onclick="popupCode('Platform.src/M000004.html');return false;">
+          <a href="#M000004" class="method-signature">
           <span class="method-name">check_operating_system</span><span class="method-args">()</span>
           </a>
         </div>
       
         <div class="method-description">
-        </div>
-      </div>
-
-      <div id="method-M000005" class="method-detail">
-        <a name="M000005"></a>
-
-        <div class="method-heading">
-          <a href="Platform.src/M000005.html" target="Code" class="method-signature"
-            onclick="popupCode('Platform.src/M000005.html');return false;">
-          <span class="method-name">check_operating_system</span><span class="method-args">()</span>
-          </a>
-        </div>
-      
-        <div class="method-description">
-          <p>
-This module is generally useful for checking operating systems. I will need
-to clean it up so that it is more single minded.
-</p>
+          <p><a class="source-toggle" href="#"
+            onclick="toggleCode('M000004-source');return false;">[Source]</a></p>
+          <div class="method-source-code" id="M000004-source">
+<pre>
+    <span class="ruby-comment cmt"># File lib/platform.rb, line 3</span>
+ 3:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">check_operating_system</span>
+ 4:     <span class="ruby-comment cmt"># The Mac check has to be proceed before the Win check!</span>
+ 5:     <span class="ruby-comment cmt"># Perhaps checking for /mswin/ will reduce this requirement.</span>
+ 6:     <span class="ruby-keyword kw">case</span> <span class="ruby-constant">RUBY_PLATFORM</span>
+ 7:     <span class="ruby-keyword kw">when</span> <span class="ruby-regexp re">/ix/i</span>, <span class="ruby-regexp re">/ux/i</span>, <span class="ruby-regexp re">/gnu/i</span>, <span class="ruby-regexp re">/sysv/i</span>, <span class="ruby-regexp re">/solaris/i</span>, <span class="ruby-regexp re">/sunos/i</span>, <span class="ruby-regexp re">/bsd/i</span>
+ 8:       <span class="ruby-identifier">require</span> <span class="ruby-value str">'gtk2'</span>
+ 9:       <span class="ruby-constant">Gtk</span>.<span class="ruby-identifier">init</span>
+10:       <span class="ruby-ivar">@clip</span> = <span class="ruby-constant">Gtk</span><span class="ruby-operator">::</span><span class="ruby-constant">Clipboard</span>.<span class="ruby-identifier">get</span>(<span class="ruby-constant">Gdk</span><span class="ruby-operator">::</span><span class="ruby-constant">Selection</span><span class="ruby-operator">::</span><span class="ruby-constant">CLIPBOARD</span>)
+11:       <span class="ruby-identifier">:unix</span>
+12:     <span class="ruby-keyword kw">when</span> <span class="ruby-regexp re">/darwin/i</span>
+13:       <span class="ruby-identifier">:mac_os_x</span>
+14:     <span class="ruby-keyword kw">when</span> <span class="ruby-regexp re">/mswin/i</span>, <span class="ruby-regexp re">/ming/i</span>
+15:       <span class="ruby-identifier">require</span> <span class="ruby-value str">'vr/clipboard'</span>
+16:       <span class="ruby-ivar">@clip</span> = <span class="ruby-constant">Clipboard</span>.<span class="ruby-identifier">new</span>(<span class="ruby-value">2048</span>)
+17:       <span class="ruby-identifier">:windows</span>
+18:     <span class="ruby-keyword kw">else</span>
+19:       <span class="ruby-identifier">:other</span>
+20:     <span class="ruby-keyword kw">end</span>
+21:   <span class="ruby-keyword kw">end</span>
+</pre>
+          </div>
         </div>
       </div>
 
