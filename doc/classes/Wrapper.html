@@ -82,6 +82,13 @@
 
   <div id="contextContent">
 
+    <div id="description">
+      <p>
+This class simply replaces &lt; characters to &amp;lt; symbols for Moodle
+Forums. It also wraps the copied text with [code ruby] [/code] block.
+</p>
+
+    </div>
 
 
    </div>
@@ -90,18 +97,8 @@
       <h3 class="section-bar">Methods</h3>
 
       <div class="name-list">
-      <a href="#M000012">check_operating_system</a>&nbsp;&nbsp;
-      <a href="#M000002">new</a>&nbsp;&nbsp;
-      <a href="#M000007">paste_to_clipboard</a>&nbsp;&nbsp;
-      <a href="#M000008">paste_to_mac_os_x_clipboard</a>&nbsp;&nbsp;
-      <a href="#M000010">paste_to_unix_clipboard</a>&nbsp;&nbsp;
-      <a href="#M000009">paste_to_windows_clipboard</a>&nbsp;&nbsp;
-      <a href="#M000003">process</a>&nbsp;&nbsp;
-      <a href="#M000011">read_content</a>&nbsp;&nbsp;
-      <a href="#M000004">set_instance_variables</a>&nbsp;&nbsp;
-      <a href="#M000013">to_s</a>&nbsp;&nbsp;
-      <a href="#M000005">wrap</a>&nbsp;&nbsp;
-      <a href="#M000006">write_to_file</a>&nbsp;&nbsp;
+      <a href="#M000001">new</a>&nbsp;&nbsp;
+      <a href="#M000002">process</a>&nbsp;&nbsp;
       </div>
     </div>
 
@@ -141,174 +138,37 @@
     <div id="methods">
       <h3 class="section-bar">Public Class methods</h3>
 
+      <div id="method-M000001" class="method-detail">
+        <a name="M000001"></a>
+
+        <div class="method-heading">
+          <a href="Wrapper.src/M000001.html" target="Code" class="method-signature"
+            onclick="popupCode('Wrapper.src/M000001.html');return false;">
+          <span class="method-name">new</span><span class="method-args">(file_name, clipboard = false, lines = false, outfile = '', begin_wrap = '', end_wrap = '')</span>
+          </a>
+        </div>
+      
+        <div class="method-description">
+          <p>
+Usage: <a
+href="Wrapper.html#M000001">Wrapper.new</a>(&#8216;filename.rb&#8217;,
+false, false, &#8216;out_filename.rb&#8217;, &#8217;[code ruby]&#8217;,
+&#8217;[/code ruby]&#8217;) Everything is defaulted to generally acceptable
+values, except for &#8216;filename.rb&#8217; for input. This is actually
+written to be more for clipboard content at this point.
+</p>
+        </div>
+      </div>
+
+      <h3 class="section-bar">Public Instance methods</h3>
+
       <div id="method-M000002" class="method-detail">
         <a name="M000002"></a>
 
         <div class="method-heading">
           <a href="Wrapper.src/M000002.html" target="Code" class="method-signature"
             onclick="popupCode('Wrapper.src/M000002.html');return false;">
-          <span class="method-name">new</span><span class="method-args">(file_name, clipboard = false, lines = false, outfile = '', begin_wrap = '', end_wrap = '')</span>
-          </a>
-        </div>
-      
-        <div class="method-description">
-        </div>
-      </div>
-
-      <h3 class="section-bar">Public Instance methods</h3>
-
-      <div id="method-M000003" class="method-detail">
-        <a name="M000003"></a>
-
-        <div class="method-heading">
-          <a href="Wrapper.src/M000003.html" target="Code" class="method-signature"
-            onclick="popupCode('Wrapper.src/M000003.html');return false;">
           <span class="method-name">process</span><span class="method-args">()</span>
-          </a>
-        </div>
-      
-        <div class="method-description">
-        </div>
-      </div>
-
-      <h3 class="section-bar">Private Instance methods</h3>
-
-      <div id="method-M000012" class="method-detail">
-        <a name="M000012"></a>
-
-        <div class="method-heading">
-          <a href="Wrapper.src/M000012.html" target="Code" class="method-signature"
-            onclick="popupCode('Wrapper.src/M000012.html');return false;">
-          <span class="method-name">check_operating_system</span><span class="method-args">()</span>
-          </a>
-        </div>
-      
-        <div class="method-description">
-        </div>
-      </div>
-
-      <div id="method-M000007" class="method-detail">
-        <a name="M000007"></a>
-
-        <div class="method-heading">
-          <a href="Wrapper.src/M000007.html" target="Code" class="method-signature"
-            onclick="popupCode('Wrapper.src/M000007.html');return false;">
-          <span class="method-name">paste_to_clipboard</span><span class="method-args">()</span>
-          </a>
-        </div>
-      
-        <div class="method-description">
-        </div>
-      </div>
-
-      <div id="method-M000008" class="method-detail">
-        <a name="M000008"></a>
-
-        <div class="method-heading">
-          <a href="Wrapper.src/M000008.html" target="Code" class="method-signature"
-            onclick="popupCode('Wrapper.src/M000008.html');return false;">
-          <span class="method-name">paste_to_mac_os_x_clipboard</span><span class="method-args">()</span>
-          </a>
-        </div>
-      
-        <div class="method-description">
-        </div>
-      </div>
-
-      <div id="method-M000010" class="method-detail">
-        <a name="M000010"></a>
-
-        <div class="method-heading">
-          <a href="Wrapper.src/M000010.html" target="Code" class="method-signature"
-            onclick="popupCode('Wrapper.src/M000010.html');return false;">
-          <span class="method-name">paste_to_unix_clipboard</span><span class="method-args">()</span>
-          </a>
-        </div>
-      
-        <div class="method-description">
-        </div>
-      </div>
-
-      <div id="method-M000009" class="method-detail">
-        <a name="M000009"></a>
-
-        <div class="method-heading">
-          <a href="Wrapper.src/M000009.html" target="Code" class="method-signature"
-            onclick="popupCode('Wrapper.src/M000009.html');return false;">
-          <span class="method-name">paste_to_windows_clipboard</span><span class="method-args">()</span>
-          </a>
-        </div>
-      
-        <div class="method-description">
-        </div>
-      </div>
-
-      <div id="method-M000011" class="method-detail">
-        <a name="M000011"></a>
-
-        <div class="method-heading">
-          <a href="Wrapper.src/M000011.html" target="Code" class="method-signature"
-            onclick="popupCode('Wrapper.src/M000011.html');return false;">
-          <span class="method-name">read_content</span><span class="method-args">()</span>
-          </a>
-        </div>
-      
-        <div class="method-description">
-        </div>
-      </div>
-
-      <div id="method-M000004" class="method-detail">
-        <a name="M000004"></a>
-
-        <div class="method-heading">
-          <a href="Wrapper.src/M000004.html" target="Code" class="method-signature"
-            onclick="popupCode('Wrapper.src/M000004.html');return false;">
-          <span class="method-name">set_instance_variables</span><span class="method-args">(binding, *variables)</span>
-          </a>
-        </div>
-      
-        <div class="method-description">
-        </div>
-      </div>
-
-      <div id="method-M000013" class="method-detail">
-        <a name="M000013"></a>
-
-        <div class="method-heading">
-          <a href="Wrapper.src/M000013.html" target="Code" class="method-signature"
-            onclick="popupCode('Wrapper.src/M000013.html');return false;">
-          <span class="method-name">to_s</span><span class="method-args">()</span>
-          </a>
-        </div>
-      
-        <div class="method-description">
-          <p>
-This will let us print to string the wrapped content.
-</p>
-        </div>
-      </div>
-
-      <div id="method-M000005" class="method-detail">
-        <a name="M000005"></a>
-
-        <div class="method-heading">
-          <a href="Wrapper.src/M000005.html" target="Code" class="method-signature"
-            onclick="popupCode('Wrapper.src/M000005.html');return false;">
-          <span class="method-name">wrap</span><span class="method-args">()</span>
-          </a>
-        </div>
-      
-        <div class="method-description">
-        </div>
-      </div>
-
-      <div id="method-M000006" class="method-detail">
-        <a name="M000006"></a>
-
-        <div class="method-heading">
-          <a href="Wrapper.src/M000006.html" target="Code" class="method-signature"
-            onclick="popupCode('Wrapper.src/M000006.html');return false;">
-          <span class="method-name">write_to_file</span><span class="method-args">(filename)</span>
           </a>
         </div>
       

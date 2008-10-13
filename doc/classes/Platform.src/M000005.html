@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+  <title>check_operating_system (Platform)</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <link rel="stylesheet" href="../.././rdoc-style.css" type="text/css" media="screen" />
+</head>
+<body class="standalone-code">
+  <pre><span class="ruby-comment cmt"># File lib/platform_check.rb, line 6</span>
+  <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">check_operating_system</span>
+    <span class="ruby-comment cmt"># The Mac check has to be proceed before the Win check!</span>
+    <span class="ruby-comment cmt"># Perhaps checking for /mswin/ will reduce this requirement.</span>
+    <span class="ruby-keyword kw">case</span> <span class="ruby-constant">RUBY_PLATFORM</span>
+    <span class="ruby-keyword kw">when</span> <span class="ruby-regexp re">/ix/i</span>, <span class="ruby-regexp re">/ux/i</span>, <span class="ruby-regexp re">/gnu/i</span>, <span class="ruby-regexp re">/sysv/i</span>, <span class="ruby-regexp re">/solaris/i</span>, <span class="ruby-regexp re">/sunos/i</span>, <span class="ruby-regexp re">/bsd/i</span>
+      <span class="ruby-identifier">require</span> <span class="ruby-value str">'gtk2'</span>
+      <span class="ruby-constant">Gtk</span>.<span class="ruby-identifier">init</span>
+      <span class="ruby-ivar">@clip</span> = <span class="ruby-constant">Gtk</span><span class="ruby-operator">::</span><span class="ruby-constant">Clipboard</span>.<span class="ruby-identifier">get</span>(<span class="ruby-constant">Gdk</span><span class="ruby-operator">::</span><span class="ruby-constant">Selection</span><span class="ruby-operator">::</span><span class="ruby-constant">CLIPBOARD</span>)
+      <span class="ruby-identifier">:unix</span>
+    <span class="ruby-keyword kw">when</span> <span class="ruby-regexp re">/darwin/i</span>
+      <span class="ruby-identifier">:mac_os_x</span>
+    <span class="ruby-keyword kw">when</span> <span class="ruby-regexp re">/mswin/i</span>, <span class="ruby-regexp re">/ming/i</span>
+      <span class="ruby-identifier">require</span> <span class="ruby-value str">'vr/clipboard'</span>
+      <span class="ruby-ivar">@clip</span> = <span class="ruby-constant">Clipboard</span>.<span class="ruby-identifier">new</span>(<span class="ruby-value">2048</span>)
+      <span class="ruby-identifier">:windows</span>
+    <span class="ruby-keyword kw">else</span>
+      <span class="ruby-identifier">:other</span>
+    <span class="ruby-keyword kw">end</span>
+  <span class="ruby-keyword kw">end</span></pre>
+</body>
+</html>

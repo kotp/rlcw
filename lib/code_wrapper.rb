@@ -9,23 +9,32 @@
 - Carlan Calazans
 ---
 License: Ruby License detailed at
-www.ruby-lang.org/en/LICENSE.txt                     
+www.ruby-lang.org/en/LICENSE.txt
                       Version: 0.8.45
-
 =end
 
 # require 'rdoc/usage'
 
+require './platform'
+include Platform
+
 $WRAPPER_VERSION  = '0.8.45'
+
+# This class simply replaces < characters to &lt; symbols for Moodle Forums.
+# It also wraps the copied text with [code ruby] [/code] block.
 
 class Wrapper
   
   TEMP_FILE = 'temp_file.txt'
+
+  # Usage: Wrapper.new('filename.rb', false, false, 'out_filename.rb', '[code ruby]', '[/code ruby]')
+  # Everything is defaulted to generally acceptable values, except for 'filename.rb' for input.
+  # This is actually written to be more for clipboard content at this point.
   
   def initialize(file_name, clipboard = false, lines = false, outfile = '',
                                             begin_wrap = '', end_wrap = '')
     @os = check_operating_system  
-    # Sets all instance variables in one go with some meta programming :)
+    # Sets all instance variables in one go with some meta programming.
     set_instance_variables(binding, *local_variables)
   end
   
@@ -87,30 +96,10 @@ class Wrapper
     @clip.getText if @clipboard && @os == :windows 
   end
 
-  def check_operating_system
-    # The Mac check has to be proceed before the Win check!
-    case RUBY_PLATFORM
-    when /ix/i, /ux/i, /gnu/i, /sysv/i, /solaris/i, /sunos/i, /bsd/i
-      require 'gtk2'
-      Gtk.init
-      @clip = Gtk::Clipboard.get(Gdk::Selection::CLIPBOARD)
-      :unix
-    when /darwin/i
-      :mac_os_x
-    when /win/i, /ming/i
-      require 'vr/clipboard'
-      @clip = Clipboard.new(2048)
-      :windows
-    else
-      :other
-    end
-  end
-  
-# This will let us print to string the wrapped content.
   def to_s
-    @wrapped_context
+    @wrapped
   end
-  
+
 end
 # Do all the option parsing here and the call the Wrapper
 

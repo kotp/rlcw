@@ -5,17 +5,16 @@
 
 <html>
 <head>
-  <title>new (Wrapper)</title>
+  <title>process (Wrapper)</title>
   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
   <link rel="stylesheet" href="../.././rdoc-style.css" type="text/css" media="screen" />
 </head>
 <body class="standalone-code">
-  <pre><span class="ruby-comment cmt"># File lib/code_wrapper.rb, line 25</span>
-  <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">initialize</span>(<span class="ruby-identifier">file_name</span>, <span class="ruby-identifier">clipboard</span> = <span class="ruby-keyword kw">false</span>, <span class="ruby-identifier">lines</span> = <span class="ruby-keyword kw">false</span>, <span class="ruby-identifier">outfile</span> = <span class="ruby-value str">''</span>,
-                                            <span class="ruby-identifier">begin_wrap</span> = <span class="ruby-value str">''</span>, <span class="ruby-identifier">end_wrap</span> = <span class="ruby-value str">''</span>)
-    <span class="ruby-ivar">@os</span> = <span class="ruby-identifier">check_operating_system</span>  
-    <span class="ruby-comment cmt"># Sets all instance variables in one go with some meta programming :)</span>
-    <span class="ruby-identifier">set_instance_variables</span>(<span class="ruby-identifier">binding</span>, <span class="ruby-operator">*</span><span class="ruby-identifier">local_variables</span>)
+  <pre><span class="ruby-comment cmt"># File lib/code_wrapper.rb, line 41</span>
+  <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">process</span>
+    <span class="ruby-ivar">@wrapped_content</span> = <span class="ruby-identifier">wrap</span>
+    <span class="ruby-identifier">write_to_file</span>(<span class="ruby-ivar">@outfile</span>) <span class="ruby-keyword kw">unless</span> <span class="ruby-ivar">@outfile</span>.<span class="ruby-identifier">empty?</span>
+    <span class="ruby-identifier">paste_to_clipboard</span> <span class="ruby-keyword kw">if</span> <span class="ruby-ivar">@clipboard</span>
   <span class="ruby-keyword kw">end</span></pre>
 </body>
 </html>
