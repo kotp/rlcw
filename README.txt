@@ -22,12 +22,14 @@ It helps prevent mangled code blogs.
 
 == REQUIREMENTS:
 
-* FIX (list of requirements)
+* See Required files
+        gtk2   vr/clipboard 
+   Requirements based on operating platform.
+   MacOS requires pbcopy to be installed.
 
 == INSTALL:
 
 *  To use, simply copy lib directory... and run code_wrapper.rb to convert your clipboard contents. 
-
 
 
 == LICENSE:
