@@ -1,18 +1,24 @@
-= Rl-kotpCodeWrapper
+= http://github.com/kotp/rlcw/tree/master
 
-* FIX (url)
+* http://github.com/kotp/rlcw/tree/master 
 
 == DESCRIPTION:
 
-FIX (describe your package)
+This package is a simple wrapper for posting code to Moodle forums.
+It helps prevent mangled code blogs.
 
 == FEATURES/PROBLEMS:
 
-* FIX (list of features or problems)
+* Works for Mac/Windows/Linux
+* Requires certain libraries, depending on platform.
+
+* Platform check doesn't currently 'only' check for platform.
+
 
 == SYNOPSIS:
 
-  FIX (code sample of usage)
+  To use:  copy your text, run the program from console, or as a button on your GUI
+           and paste into your application.
 
 == REQUIREMENTS:
 
@@ -20,7 +26,9 @@ FIX (describe your package)
 
 == INSTALL:
 
-* FIX (sudo gem install, anything else)
+*  To use, simply copy lib directory... and run code_wrapper.rb to convert your clipboard contents. 
+
+
 
 == LICENSE:
 
