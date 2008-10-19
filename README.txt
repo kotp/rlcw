@@ -5,7 +5,7 @@
 == DESCRIPTION:
 
 This package is a simple wrapper for posting code to Moodle forums.
-It helps prevent mangled code blogs.
+It helps prevent mangled code blocks.
 
 == FEATURES/PROBLEMS:
 
@@ -23,9 +23,10 @@ It helps prevent mangled code blogs.
 == REQUIREMENTS:
 
 * See Required files
-        gtk2   vr/clipboard 
+        gtk2 - for clipboard function in Linux
+        vr/clipboard - for clipboard function in MS Windows
    Requirements based on operating platform.
-   MacOS requires pbcopy to be installed.
+   MacOS requires pbcopy to be installed. (Probably already installed on your system.
 
 == INSTALL:
 
@@ -36,7 +37,7 @@ It helps prevent mangled code blogs.
 
 (The MIT License)
 
-Copyright (c) 2008 FIX
+Copyright (c) 2008
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
