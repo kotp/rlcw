@@ -20,11 +20,24 @@ Unix Expertise: Solaris 2.5.6, RedHat Linux, Debian Linux, Slackware Linux, HP-U
 Windows Expertise: DOS, WFW, 95, 98, NT, 2000, NT Server, 2000 Server.  
 Network Expertise: Cisco, TCP/IP, SNMP, SSH, DNS, VPNs, KVM systems (Rose KVM)  
 Security Expertise: Checkpoint FW-1, Nokia  
+
 DBMS Expertise: Oracle, ANSI SQL, various development databases  
 Application Expertise: Meridian Mail, MS Office Suite, OpenOffice, StarOffice, Remedy, Exceed, etc.  
 Backup Expertise: Legato, Clearcase, Backup Exec
 
 ## WORK EXPERIENCE
+
+#### **RUBYLEARNING.ORG**
+
+Moose Lake, MN
+(2008 - Current)
+
+**Mentor/Assistant Teacher**
+Current and New Course Curriculumn development
+Technical review
+Developement of client services 
+International Presentations
+Cross platform support
 
 #### **DONNA GOFF COMPUTERS AND CONSULTING**
 
@@ -152,10 +165,10 @@ United States
 Responsible for the safe maintenance of F-16 fighters. The computer systems personally responsible for were Flight Control Computer, Navigation Computer and Fuel Systems. Directly responsible for other _straight_ electrical systems, as well.
 Additional skills:
 
-*Self-Aid - Buddy Care Instructor
-*Advanced First Aid Instructor
-*CPR Instructor
-*Advanced Life Saving Instructor.
+*  Self-Aid - Buddy Care Instructor
+*  Advanced First Aid Instructor
+*  CPR Instructor
+*  Advanced Life Saving Instructor.
 
 ## **EDUCATION**
 
