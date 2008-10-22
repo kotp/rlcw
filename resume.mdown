@@ -151,6 +151,7 @@ United States
 **Aircraft Avionics Technician**  
 Responsible for the safe maintenance of F-16 fighters. The computer systems personally responsible for were Flight Control Computer, Navigation Computer and Fuel Systems. Directly responsible for other _straight_ electrical systems, as well.
 Additional skills:
+
 *Self-Aid - Buddy Care Instructor
 *Advanced First Aid Instructor
 *CPR Instructor
