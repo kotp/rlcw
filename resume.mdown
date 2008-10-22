@@ -1,4 +1,3 @@
-<<<<<<< HEAD:resume.mdown
 Donna Goff Computers and Consulting
 
 * * *
@@ -354,4 +353,3 @@ Prometric Testing Center
 Cocoa Beach, FL
 
 A+ Certification
->>>>>>> 707c8fd7f5978c96dcee080b9c74699aa510c3e7:resume.mdown
