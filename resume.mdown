@@ -28,31 +28,31 @@ Backup Expertise: Legato, Clearcase, Backup Exec
 
 ## WORK EXPERIENCE
 
-Moose Lake, MN  
-(2001 – 2007)
-
 #### **DONNA GOFF COMPUTERS AND CONSULTING**
+
+Moose Lake, MN  
+(2001 - 2007)
 
 **Computer and Network System Consultant**  
 General consulting for various businesses and residential clients. We have installed and supported various operating systems, Windows (family), Linux (Suse, Redhat, Debian, DSL), Macintosh (OS 9, OS X), to name a few.  
 Network solutions, such as Domain, DNS, SMB, NFS, DHCP, NTFS, and group permissions for network and system security, e-mail and web services are also in our field of service.  
 Server buildouts are done with Raid 2/Raid 5 combinations for improved fault tolerance, and Point of Sale systems and back-end servers are built with the same careful considerations. We boast of a broad service area, extending from Forest Lake to Duluth, from Danbury, WI to Brainerd.
 
-Hinckley, MN  
-(2002 – 2005)
-
 #### **GRAND CASINO HINCKLEY**
+
+Hinckley, MN  
+(2002 - 2005)
 
 **Cashier, Slot Attendant**  
 As a Cashier, was responsible for paying tickets and making change.  
 As a Slot Attendant, was responsible for paying jackpots, making change, and minor machine fixes.
 
-Burlington, MA  
-(1998 – 2002)
-
 #### **NOKIA, INC.**
 
-**Sr. Network Administrator – IT Project Manager**  
+Burlington, MA  
+(1998 - 2002)
+
+**Sr. Network Administrator   - IT Project Manager**  
 As the Senior Network Administrator and Project Manager, responsible for designing, implementing, and maintaining the necessary infrastructure to enable service delivery. Responsibilities included the development and maintenance of the service delivery, service management, and operational support systems. It also included providing top-level technical support of the Nokia Burlington infrastructure. Responsible for developing and implementing the technical aspects of customer service, including the establishment and maintenance standards specifications.
 
 *   Designed scalable architecture and deployment strategy for leveraging distributed capabilities and load balancing technologies to enhance scalability and redundancy of the infrastructure while minimizing the operational costs.
@@ -67,10 +67,10 @@ As the Senior Network Administrator and Project Manager, responsible for designi
 *   During first year deployed to Texas to setup a repair facility network environment in a hostile customer environment, highest degree of success, resulting in praise from clients and transfer offer.
 *   Hired and led the technical team through initial planning, design, and system deployment.
 
-Melbourne, FL  
-(1997 – 1998)
-
 #### **AEROTEK, INC.**
+
+Melbourne, FL  
+(1997 - 1998)
 
 **Consultant**  
 As a consultant, accepted work at Harris Semiconductor
@@ -78,10 +78,10 @@ As a consultant, accepted work at Harris Semiconductor
 *   Migrated the entire campus consisting of approximately 5 buildings from client side modem application to centralized modem pool
 *   This project was done in less than the customer required time frame. More importantly, it was done with the least amount of discomfort to clients that wanted to keep personal modem, but were required to migrate.
 
-Palm Bay, FL  
-(1996 – 1997)
-
 #### **THE SOFTWARE ZONE, INC.**
+
+Palm Bay, FL  
+(1996 - 1997)
 
 **Computer Technician**
 
@@ -89,18 +89,18 @@ Palm Bay, FL
 *   Individually responsible for Compaq Authorized Warranty work, and processing forms.
 *   Development database of up to date BIOS and firmware updates for efficient operation.
 
-Melbourne, FL  
-(1996 – 1996)
-
 #### **MICRO ABACUS COMPUTERS**
+
+Melbourne, FL  
+(1996 - 1996)
 
 **Technician**  
 Mentored computer hardware technicians in a busy retail location. Offered a position of Store Manager at a proposed new location.
 
-Satellite Beach, FL  
-(1995 – 1996)
-
 #### **TECHDECK, INC.**
+
+Satellite Beach, FL  
+(1995 - 1996)
 
 **Vice President**  
 Co-lead the business organization, overseeing day-to-day engineering and retail store, and repair operations, as well as business development and community relations.
@@ -108,10 +108,10 @@ Co-lead the business organization, overseeing day-to-day engineering and retail 
 *   Held contracts with the academic community for teaching computer repair, and computer engineering.
 *   As such, one project that came of that was a learning kit that was provided to the students for the computer repair class. This consisted of tools to open cases of Mac, Compaq, IBM and PC cases, as well as IC Removal tools, soldering iron, multi-meter, etc. Just about anything you could want to determine an actual hardware failure, instead of just replacing cards.
 
-Homestead, FL  
-(1991 – 1996)
-
 #### **IMAGINE THAT! BBS**
+
+Homestead, FL  
+(1991 - 1996)
 
 **Systems Administrator**  
 Managed and operated a non-commercial Bulletin Board System (BBS) utilizing various software packages, Telegaurd, Virtual BBS, Wild Cat, Galacticomm BBS Software, etc.
@@ -120,37 +120,38 @@ Managed and operated a non-commercial Bulletin Board System (BBS) utilizing vari
 *   The system was able to effectively support 255 modems simultaneously.
 *   The BBS also supported concurrently local network connections as well. Data, Chat, “Live” Games, and technical information were available to our customer base.
 
-Homestead, FL  
-(1992 – 1994)
-
 #### **SELF EMPLOYED**
+
+Homestead, FL  
+(1992 - 1994)
 
 **Jack of Computer Trade**  
 Sales of computer and network equipment, computer graphic work including still and motion video.
 
-Homestead, FL  
-(1991 – 1992)
-
 #### PRO ELECTRONICS
+
+Homestead, FL  
+(1991 - 1992)
 
 **Executive Assistant**  
 Organized notes and work for the Sole Proprietor of a VCR, Television, Electronic repair shop. Responsible for developing revolving parts orders. Also, started and increased computer repair volume.
 
-Perrine, FL  
-(1991 – 1992)
-
 #### **EXPRESS ELECTRONICS**  
+
+Perrine, FL  
+(1991 - 1992)
+
 **Parts Clerk**  
 Responsible for accounting for parts being sold, in inventory, and on order.  
 Served as customer representative at POS.
 
-United States  
-(1987 – 1990)
-
 #### **UNITED STATES AIR FORCE**
 
+United States  
+(1987 - 1990)
+
 **Aircraft Avionics Technician**  
-Responsible for the safe maintenance of F-16 fighters. The computer systems personally responsible for were Flight Control Computer, Navigation Computer and Fuel Systems. Directly responsible for other ‘straight’ electrical systems, as well. Additional skills: Self-Aid – Buddy Care Instructor /Advanced First Aid Instructor/ CPR Instructor/Advanced Life Saving.
+Responsible for the safe maintenance of F-16 fighters. The computer systems personally responsible for were Flight Control Computer, Navigation Computer and Fuel Systems. Directly responsible for other ‘straight’ electrical systems, as well. Additional skills: Self-Aid   - Buddy Care Instructor /Advanced First Aid Instructor/ CPR Instructor/Advanced Life Saving.
 
 ## **EDUCATION**
 
