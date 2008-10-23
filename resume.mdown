@@ -16,7 +16,7 @@ Senior technical architect with expertise in enterprise design and architecture 
 ## TECHNICAL SKILLS
 
 Specializations: Network architecture and design, system design, systems programming, systems integration.  
-Unix Expertise: Solaris 2.5.6, RedHat Linux, Debian Linux, Slackware Linux, HP-UX 10.2., Apache Web Server, sendmail  
+Unix Expertise: Solaris, RedHat Linux, Debian Linux, Slackware Linux, HP-UX, Apache Web Server, sendmail  
 Windows Expertise: DOS, WFW, 95, 98, NT, 2000, NT Server, 2000 Server.  
 Network Expertise: Cisco, TCP/IP, SNMP, SSH, DNS, VPNs, KVM systems (Rose KVM)  
 Security Expertise: Checkpoint FW-1, Nokia  
@@ -72,9 +72,9 @@ As the Senior Network Administrator and Project Manager, responsible for designi
 *   Primary Linux support, built baseline configurations for Linux distributions
 *   Developed csh and bash scripts as needed for semi-automation of systems management.
 *   Familiar with administration of Network Appliance Storage Systems.
-*   Involved in high profile projects one of which was a wireless meeting between students at Harvard University and the President of Nokia in Finland. 90% wireless, technically demonstrated Nokia’s products in a non-technical focused forum.
+*   Involved in high profile projects one of which was a wireless meeting between students at Harvard University and the President of Nokia in Finland. 90% wireless, technically demonstrated Nokia's products in a non-technical focused forum.
 *   Also used 3 different backup systems to evaluate, and eventually migrate to, the most appropriate system Legato
-*   Involved in the business planning for the Americas (North and South) before being promoted to Sr. Network Administrator by the President of IM in Irving Texas. Hence was transferred to Burlington, MA to manage technical and customer relation issues as a Sr. Network Administrator. History of World Class Customer Service. Key member of IM Project Team Boston ’99, which involved setting up a brand new building in Burlington, moving 20+ business units from two buildings to the newly built one with little disruption. Routinely presented to the business units progress in issues, both technical and non-technical.
+*   Involved in the business planning for the Americas (North and South) before being promoted to Sr. Network Administrator by the President of IM in Irving Texas. Hence was transferred to Burlington, MA to manage technical and customer relation issues as a Sr. Network Administrator. History of World Class Customer Service. Key member of IM Project Team Boston '99, which involved setting up a brand new building in Burlington, moving 20+ business units from two buildings to the newly built one with little disruption. Routinely presented to the business units progress in issues, both technical and non-technical.
 *   During first year deployed to Texas to setup a repair facility network environment in a hostile customer environment, highest degree of success, resulting in praise from clients and transfer offer.
 *   Hired and led the technical team through initial planning, design, and system deployment.
 
@@ -129,7 +129,7 @@ Managed and operated a non-commercial Bulletin Board System (BBS) utilizing vari
 
 *   This Bulletin Board System eventually was sold to TechDeck, Inc. while operating with Galacticomm BBS Software.
 *   The system was able to effectively support 255 modems simultaneously.
-*   The BBS also supported concurrently local network connections as well. Data, Chat, “Live” Games, and technical information were available to our customer base.
+*   The BBS also supported concurrently local network connections as well. Data, Chat, 'Live' Games, and technical information were available to our customer base.
 
 #### **SELF EMPLOYED**
 
