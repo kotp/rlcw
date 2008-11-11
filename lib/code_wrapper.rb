@@ -15,7 +15,7 @@ www.ruby-lang.org/en/LICENSE.txt
 
 # require 'rdoc/usage'
 
-require './platform'
+require '../lib/platform'
 include Platform
 
 $WRAPPER_VERSION  = '0.8.45'
