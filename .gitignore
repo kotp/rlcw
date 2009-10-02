@@ -1,3 +1,5 @@
 # Ignore the following files
 created.rid
 *.tmp
+doc
+.project
