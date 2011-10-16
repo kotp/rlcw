@@ -3,3 +3,12 @@ created.rid
 *.tmp
 doc
 .project
+.rvmrc
+*.lock
+## editor ignores
+# vim temp files
+*.swp
+*.sw0
+# redcar project files
+.redcar
+
