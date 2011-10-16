@@ -37,7 +37,7 @@ It helps prevent mangled code blocks.
 
 (The MIT License)
 
-Copyright (c) 2008
+Copyright (c) 2008-2011
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
