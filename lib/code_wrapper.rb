@@ -33,7 +33,7 @@ class Wrapper
   
   def initialize(file_name, clipboard = false, lines = false, outfile = '',
                                             begin_wrap = '', end_wrap = '')
-    @os = check_operating_system  
+    @os = check_operating_system
     # Sets all instance variables in one go with some meta programming.
     set_instance_variables(binding, *local_variables)
   end
@@ -92,8 +92,8 @@ class Wrapper
 
   def read_content
     # TODO Error handling
-    IO.readlines(@file_name).join unless @clipboard 
-    @clip.getText if @clipboard && @os == :windows 
+    IO.readlines(@file_name).join unless @clipboard
+    @clip.getText if @clipboard && @os == :windows
   end
 
   def to_s
@@ -103,4 +103,4 @@ class Wrapper
 end
 # Do all the option parsing here and the call the Wrapper
 
-Wrapper.new('/tmp/reminder.rb', 'true', 'false').process unless __FILE__ != $0
+Wrapper.new('/tmp/reminder.rb', 'true', 'false').process if __FILE__ == $0
