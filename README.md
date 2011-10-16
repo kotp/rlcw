@@ -1,13 +1,13 @@
-= http://github.com/kotp/rlcw/tree/master
+= http://github.com/kotp/rlcw/tree/master =
 
 * http://github.com/kotp/rlcw/tree/master 
 
-== DESCRIPTION:
+== DESCRIPTION: ==
 
 This package is a simple wrapper for posting code to Moodle forums.
 It helps prevent mangled code blocks.
 
-== FEATURES/PROBLEMS:
+== FEATURES/PROBLEMS: ==
 
 * Works for Mac/Windows/Linux
 * Requires certain libraries, depending on platform.
@@ -15,12 +15,12 @@ It helps prevent mangled code blocks.
 * Platform check doesn't currently 'only' check for platform.
 
 
-== SYNOPSIS:
+== SYNOPSIS: ==
 
   To use:  copy your text, run the program from console, or as a button on your GUI
            and paste into your application.
 
-== REQUIREMENTS:
+== REQUIREMENTS: ==
 
 * See Required files
         gtk2 - for clipboard function in Linux
@@ -28,12 +28,13 @@ It helps prevent mangled code blocks.
    Requirements based on operating platform.
    MacOS requires pbcopy to be installed. (Probably already installed on your system.
 
-== INSTALL:
+== INSTALL: ==
 
 *  To use, simply copy lib directory... and run code_wrapper.rb to convert your clipboard contents. 
 
 
-== LICENSE:
+--------------------------------------------
+== LICENSE: ==
 
 (The MIT License)
 
