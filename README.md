@@ -8,7 +8,7 @@ DESCRIPTION:
 
 This package is a simple wrapper for posting code to Moodle forums.
 It helps prevent mangled code blocks.
-Good idea.
+Great idea.
 
 FEATURES/PROBLEMS:
 ------------------
